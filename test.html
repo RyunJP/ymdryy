@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="https://cy.ymdryy.com/style.css">
+    <title>test</title>
+    <script src="main.js" async></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>$(function () { $("#lunchmenutable").load("lunchmenutable.html"); }); </script>
+</head>
+
+<body>
+    <section class="lunchmenu" id="lunchmenu">
+        <h2>学食</h2>
+        <div id="lunchmenutable"></div>
+    </section>
+</body>
+
+</html>
+
+<!--
+説明
+・タグは動かさない、壊さない
+・Ctrl+Zでひとつ前の状態に戻る
+・Ctrl+Cでコピー
+・Ctrl+Vでペースト
+・週替わりメニューは<td>にrowspan="続く日数"をいれる。そのあとの続く日数の部分だけ<td>を消す
+・<th>は太字になるからタイトルなど。<td>は庶民
+・日曜日をはさむときは<tr>タグを置く。中には何もいれない
+・学校があるが学食が休みの時は日付以外の<td>を消して<td colspan="4">休み</td>を入れる
+-->
